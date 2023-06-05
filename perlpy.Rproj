@@ -1,0 +1,34 @@
+Version: 1.0
+
+RestoreWorkspace: Yes
+SaveWorkspace: Yes
+AlwaysSaveHistory: Yes
+
+EnableCodeIndexing: Yes
+UseSpacesForTab: Yes
+NumSpacesForTab: 2
+Encoding: UTF-8
+
+RnwWeave: Sweave
+LaTeX: pdfLaTeX
+RootDocument: readme.md
+
+AutoAppendNewline: Yes
+StripTrailingWhitespace: Yes
+LineEndingConversion: Native
+
+BuildType: Website
+WebsitePath: ~/projects/py++/perlpy
+
+QuitChildProcessesOnExit: Yes
+
+MarkdownWrap: Column
+MarkdownWrapAtColumn: 256
+MarkdownReferences: Document
+MarkdownCanonical: Yes
+
+ZoteroLibraries: "My Library"
+
+PythonType: system
+PythonVersion: 3.8.10
+PythonPath: /usr/bin/python3
